@@ -5,5 +5,5 @@ def square(a):
     d = d ** 0.5
     k = (p, s, d)
     return k
-n = int(input("enter number: "))
+n = int(input("Введите сторону квадрата: "))
 print(square(n))
